@@ -6,7 +6,40 @@
     <title>Drool</title>
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="new.css">
+    <style>
+        .move{
+    transition: all;
+    animation: next 3s infinite;
+     }
+    @keyframes next {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(80px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+    
+    }
+   .move1{
+    transition: all;
+    animation: nett 3s infinite;
+    }
+    @keyframes nett {
+    0%{
+        transform: translateY(80px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(80px);
+    }
+    
+    }
+    </style>
 </head>
 <body>
     <nav class="relative h-[510px] w-full py-6 px-8" style="background-image: url('hero-bg.jpg');">
